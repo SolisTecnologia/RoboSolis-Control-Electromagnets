@@ -19,6 +19,7 @@ Several programming languages can be used to connect via API.
 * Raspberry Pi 4B board <img align="center" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/raspberrypi/raspberrypi-original.svg">
 * 2x NEMA-23 Stepper Motors
 * 2x 12V/5A battery
+* USB control
 
 # Programming Example
 ## Control Electromagnets - [Control_Electromagnets.py](https://github.com/SolisTecnologia/SoBot-Control-Electromagnets/blob/master/Control_Electromagnets.py)
@@ -42,6 +43,7 @@ import serial
 ~~~
 
 The ''usb.core'' and ''usb.util'' libraries are used to establish connection between the USB remote control and the Raspberry.
+
 The ''time'' library is needed to generate time delays and the ''serial'' library for serial/usb Raspberry connection with the robot controller driver.
 
 For more information about the commands used, check the Robot Commands Reference Guide.
