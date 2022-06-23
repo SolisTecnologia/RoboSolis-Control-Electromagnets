@@ -1,3 +1,15 @@
+#!/usr/bin/python3
+"""
+Solis Robot - SoBot
+
+Control_Electromagnets.py: Programming example to control the SoBot by a USB remote control to move and control the electromagnets.
+
+Created By   : Vinicius M. Kawakami
+Version      : 1.0
+
+Company: Solis Tecnologia
+"""
+
 import usb.core
 import usb.util
 from time import sleep
