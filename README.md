@@ -46,6 +46,42 @@ The ''usb.core'' and ''usb.util'' libraries are used to establish connection bet
 
 The ''time'' library is needed to generate time delays and the ''serial'' library for serial/usb Raspberry connection with the robot controller driver.
 
+### Code Description
+
+The commands used in this example to control SoBot are continuous movement commands, as follows:
+
+~~~python
+serialUSB.write(b"MT0 MC AT100 DT100 V2") # Parameter settings for continuous mode
+serialUSB.write(b"MT0 ME1")               # Enable continuous movement
+serialUSB.write(b"MT0 ME0")               # Disable continuous movement
+serialUSB.write(b"MT0 ML")                # Move left
+serialUSB.write(b"MT0 MR")                # Move right
+serialUSB.write(b"MT0 MB")                # Move backward
+serialUSB.write(b"MT0 MF")                # Move Forward
+serialUSB.write(b"MT0 MP")                # Pause movement
+~~~
+
+The electromagnets are connected to the digital outputs and the following commands are used to control them:
+
+~~~python
+serialUSB.write(b"DO5 E1")	    # Turn On digital output 5
+serialUSB.write(b"DO5 E0")	    # Turn Off digital output 5
+serialUSB.write(b"DO6 E1")	    # Turn On digital output 6
+serialUSB.write(b"DO6 E0")	    # Turn Off digital output 6
+serialUSB.write(b"DO7 E1")	    # Turn On digital output 7
+serialUSB.write(b"DO7 E0")	    # Turn Off digital output 7
+serialUSB.write(b"DO8 E1")	    # Turn On digital output 8
+serialUSB.write(b"DO8 E0")	    # Turn Off digital output 8
+~~~
+
+To control the elevator module, the following commands are used:
+
+~~~python
+serialUSB.write(b"EL DN")	    # Move elevator down
+serialUSB.write(b"EL UP")	    # Move elevator up
+serialUSB.write(b"EL ST")	    # Pause the elevator
+~~~
+
 For more information about the commands used, check the Robot Commands Reference Guide.
 
 
