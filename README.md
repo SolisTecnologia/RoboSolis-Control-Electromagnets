@@ -84,6 +84,9 @@ serialUSB.write(b"EL ST")	    # Pause the elevator
 
 For more information about the commands used, check the Robot Commands Reference Guide.
 
+### Flowchart
+
+![](https://github.com/SolisTecnologia/SoBot-Control-Electromagnets/blob/master/png/Flowchart_Control_Electromagnets.png)
 
 # Reference Link
 [SolisTecnologia website](https://solistecnologia.com.br/produtos/robotsingle)
