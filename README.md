@@ -88,6 +88,8 @@ For more information about the commands used, check the Robot Commands Reference
 
 ![](https://github.com/SolisTecnologia/SoBot-Control-Electromagnets/blob/master/png/Flowchart_Control_Electromagnets.png)
 
+https://github.com/SolisTecnologia/SoBot-Control-Electromagnets/blob/master/png/Electromagnetic-only-moving.mp4
+
 # Reference Link
 [SolisTecnologia website](https://solistecnologia.com/produtos/robotsingle)
 
