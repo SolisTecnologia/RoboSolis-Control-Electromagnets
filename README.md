@@ -90,10 +90,14 @@ For more information about the commands used, check the Robot Commands Reference
 
 https://github.com/SolisTecnologia/SoBot-Control-Electromagnets/blob/master/png/Electromagnetic-only-moving.mp4
 
+https://user-images.githubusercontent.com/67121369/176179066-457af5b6-a2c8-40da-9fb1-7b01c4fb71f5.mp4
+
 # Reference Link
 [SolisTecnologia website](https://solistecnologia.com/produtos/robotsingle)
 
 # Please Contact Us
+
+
 If you have any problem when using our robot after checking this tutorial, please contact us.
 
 ### Phone:
